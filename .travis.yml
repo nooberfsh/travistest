@@ -3,5 +3,12 @@ scala:
   - "2.12.8"
 jvm:
   - openjdk8
+install:
+  - wget https://archive.apache.org/dist/spark/spark-2.2.3/spark-2.2.3-bin-hadoop2.7.tgz
+  -
 script:
+  - tar xzf spark-2.2.3-bin-hadoop2.7.tgz
+  - cd spark-2.2.3-bin-hadoop2.7
+  - ls
   - sbt run
+
