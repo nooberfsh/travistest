@@ -1,0 +1,7 @@
+language: scala
+scala:
+  - "2.12.8"
+jvm:
+  - openjdk8
+script:
+  - sbt run
