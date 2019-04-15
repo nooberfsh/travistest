@@ -12,5 +12,6 @@ script:
   - ls
   - ./sbin/start-master.sh
   - ls logs/
+  - cat logs/spark-travis-org.apache.spark.deploy.master.Master-1-travis-job-d8cce8a0-e570-4f8f-8c97-6f13add3cd1b.out
   - sbt run
 
