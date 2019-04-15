@@ -10,5 +10,7 @@ script:
   - tar xzf spark-2.2.3-bin-hadoop2.7.tgz
   - cd spark-2.2.3-bin-hadoop2.7
   - ls
+  - ./sbin/start-master.sh
+  - ls logs/
   - sbt run
 
